@@ -84,6 +84,9 @@
     margin-top: -2px;
     vertical-align: middle;
 }
+        .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto{
+            text-align:right;
+        }
     </style>
     @RenderSection("styles", required: false)
 </head>
@@ -147,7 +150,7 @@
 
                     <!-- Top Links
                     ============================================= -->
-                    <div class="top-links">
+                    @*<div class="top-links">
                         <ul>
                             <li>
                                 <a href="#">All Cities</a>
@@ -160,27 +163,28 @@
                                 </ul>
                             </li>
                         </ul>
-                    </div><!-- .top-links end -->
+                    </div>*@
+                    <!-- .top-links end -->
 
                 </div>
 
                 <div class="col_half fright col_last clearfix nobottommargin">
 
-                    <!-- Top Links
-                    ============================================= -->
-                    <div class="top-links">
-                        <ul>
-                            <li class="d-sm-none d-md-none"><a href="#"><i class="icon-call"></i> +1800-123-7890</a></li>
+                    @*<!-- Top Links
+    ============================================= -->
+    <div class="top-links">
+        <ul>
+            <li class="d-sm-none d-md-none"><a href="#"><i class="icon-call"></i> +1800-123-7890</a></li>
                             <li><a href="#"><i class="icon-download-alt"></i> Download App</a></li>
                             <li class="top-bar-highlight">
-                                <a href="#">Sell/Rent your Property</a>
-                                <div class="top-link-section" style="font-size: 14px;">
-                                    Genuine Clients, 100% Trust Assurance and Lowest Fees on the Market. <a href="#" class="more-link font-secondary" style="border-bottom-style: dotted;">Learn More &rarr;</a>
-                                </div>
-                            </li>
-                            <li><a href="#" class="side-panel-trigger">Login/Register</a></li>
-                        </ul>
-                    </div><!-- .top-links end -->
+                <a href="#">Sell/Rent your Property</a>
+                <div class="top-link-section" style="font-size: 14px;">
+                    Genuine Clients, 100% Trust Assurance and Lowest Fees on the Market. <a href="#" class="more-link font-secondary" style="border-bottom-style: dotted;">Learn More &rarr;</a>
+                </div>
+            </li>
+            <li></li>
+        </ul>
+    </div><!-- .top-links end -->*@
 
                 </div>
 
@@ -208,20 +212,18 @@
                     <nav id="primary-menu" class="with-arrows">
 
                         <ul>
-                            <li><a href="../../demo-real-estate.html"><div>Home</div></a></li>
-                            <li><a href="about-us.html"><div>About Us</div></a></li>
-                            <li>
+                            @*<li>
                                 <a href="#"><div>Properties</div></a>
                                 <ul>
                                     <li><a href="single-property.html"><div>Condo Apartments</div></a></li>
                                     <li><a href="single-property.html"><div>Luxury Villas</div></a></li>
                                     <li><a href="single-property.html"><div>Premium Estates</div></a></li>
                                 </ul>
-                            </li>
-                            <li><a href="builders.html"><div>Builders</div></a></li>
-                            <li><a href="services.html"><div>Services</div></a></li>
-                            <li class="current"><a href="#"><div>Listing</div></a></li>
-                            <li><a href="contact.html"><div>Contact</div></a></li>
+                            </li>*@
+                            <li><a href="#"><div>من نحن</div></a></li>
+                            <li><a href="#"><div>تسجيل الشركات</div></a></li>
+                            <li><a href="#"><div>الرئيسية</div></a></li>
+                            <li><a href="#" class="side-panel-trigger"><div>تسجيل / تسجيل الدخول</div></a></li>
                         </ul>
 
                     </nav><!-- #primary-menu end -->
@@ -269,25 +271,14 @@
 
                             <div class="col-6 bottommargin-sm widget_links widget_real_estate_popular">
                                 <ul>
-                                    <li><a href="#"><i class="icon-map-marker2"></i> California</a></li>
-                                    <li><a href="#"><i class="icon-map-marker2"></i> Nevada</a></li>
-                                    <li><a href="#"><i class="icon-map-marker2"></i> Hawaii</a></li>
-                                    <li><a href="#"><i class="icon-map-marker2"></i> Washington</a></li>
-                                    <li><a href="#"><i class="icon-map-marker2"></i> Ottawa</a></li>
-                                    <li><a href="#"><i class="icon-map-marker2"></i> Virginia</a></li>
-                                    <li><a href="#"><i class="icon-map-marker2"></i> Ohio</a></li>
+                                    <li><a href="#"><i class="icon-map-marker2"></i> اسطنبول الشرقية</a></li>
                                 </ul>
                             </div>
 
                             <div class="col-6 bottommargin-sm widget_links widget_real_estate_popular">
                                 <ul>
-                                    <li><a href="#"><i class="icon-map-marker2"></i> Oregon</a></li>
-                                    <li><a href="#"><i class="icon-map-marker2"></i> Colorado</a></li>
-                                    <li><a href="#"><i class="icon-map-marker2"></i> Kentucky</a></li>
-                                    <li><a href="#"><i class="icon-map-marker2"></i> Texas</a></li>
-                                    <li><a href="#"><i class="icon-map-marker2"></i> Miami</a></li>
-                                    <li><a href="#"><i class="icon-map-marker2"></i> New York</a></li>
-                                    <li><a href="#"><i class="icon-map-marker2"></i> New Jersey</a></li>
+                                    <li><a href="#"><i class="icon-map-marker2"></i> اسطنبول الغربية</a></li>
+                                    
                                 </ul>
                             </div>
 
@@ -296,7 +287,7 @@
 
                     <div class="col_half col_last">
 
-                        <h4 class="ls1 t400 uppercase">Connect Socially</h4>
+                        <h4 class="ls1 t400 uppercase">للتواصل الاجتماعي</h4>
 
                         <div class="bottommargin-sm clearfix">
                             <a href="#" class="social-icon si-colored si-small si-rounded si-facebook" title="Facebook">
@@ -332,8 +323,8 @@
 
                         <div class="widget subscribe-widget subscribe-form clearfix" data-loader="button">
                             <div class="widget-subscribe-form-result"></div>
-                            <form action="../../include/subscribe.php" method="post" class="nobottommargin">
-                                <input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="sm-form-control not-dark required email" placeholder="Enter your Email">
+                            <form action="#" method="post" class="nobottommargin">
+                                <input type="email" id="widget-subscribe-form-email" name="widget-subscribe-form-email" class="sm-form-control not-dark required email" placeholder="أدخل بريدك الالكتروني">
                                 <button class="button button-3d button-black noleftmargin norightmargin" style="margin-top: 15px;" type="submit">Subscribe</button>
                             </form>
                         </div>

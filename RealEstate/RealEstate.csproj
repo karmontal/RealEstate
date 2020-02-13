@@ -1700,6 +1700,7 @@
     <Content Include="Content\js\components\tinymce\skins\ui\oxide\fonts\tinymce-mobile.woff" />
     <Content Include="Content\js\components\tinymce\skins\ui\oxide\skin.min.css.map" />
     <Content Include="Content\js\components\tinymce\skins\ui\oxide\skin.mobile.min.css.map" />
+    <None Include="Properties\PublishProfiles\pub.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
